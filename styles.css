@@ -1,0 +1,63 @@
+.currentForecast{
+  text-align: center;
+  background-color: #9CD7FF;
+  border-color: black;
+  border-width: 2px;
+  border-style:ridge;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
+}
+h1, form {
+  text-align: center;
+}
+.page {
+  background-color: #EDEDED;
+  font-family: "Verdana", sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  background: #EDEDED;
+  display: flex;
+  flex-direction: row;
+  position: center;
+  flex-flow: wrap;
+
+}
+ .col {
+   width: 20%;
+   height: 150px;
+   background: #9CD7FF;
+   margin: 20px;
+   box-sizing: border-box;
+   border-color: black;
+   border-width: 2px;
+   border-style: outset;
+}
+.col p, h2, img {
+  text-align: center;
+  margin-bottom: -2px;
+}
+.test h3 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #f9ab55;
+}
+.test {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  background-color: #909cc2;
+}
+
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
